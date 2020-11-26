@@ -21,6 +21,7 @@ public class MainProgram {
         System.out.println("Собака-поводырь : ");
         GuideDog guideDog= new GuideDog(213,5,15,"White","Gogy",true,true);
         guideDog.voice();
+        guideDog.getHome();
         System.out.println("Хомяк : ");
         Hamster hamster= new Hamster(31,2,1,"Black","Sunny",false);
         hamster.voice();

@@ -9,4 +9,8 @@ public class GuideDog extends Pet {
     public void voice() {
         System.out.println("Hello, I can take you home.");
     }
+
+    public void getHome(){
+        System.out.println("I am your guide dog, let's come home together");
+    }
 }
